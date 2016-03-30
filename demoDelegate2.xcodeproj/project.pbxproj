@@ -16,6 +16,7 @@
 		67FD75A81CA9140C0051866C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FD75A61CA9140C0051866C /* LaunchScreen.storyboard */; };
 		67FD75B31CA9140C0051866C /* demoDelegate2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FD75B21CA9140C0051866C /* demoDelegate2Tests.m */; };
 		67FD75BE1CA9140C0051866C /* demoDelegate2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FD75BD1CA9140C0051866C /* demoDelegate2UITests.m */; };
+		67FD75CD1CA914560051866C /* TimerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FD75CC1CA914560051866C /* TimerControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		67FD75B91CA9140C0051866C /* demoDelegate2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoDelegate2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FD75BD1CA9140C0051866C /* demoDelegate2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoDelegate2UITests.m; sourceTree = "<group>"; };
 		67FD75BF1CA9140C0051866C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67FD75CB1CA914560051866C /* TimerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerControl.h; sourceTree = "<group>"; };
+		67FD75CC1CA914560051866C /* TimerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				67FD75991CA9140C0051866C /* AppDelegate.m */,
 				67FD759B1CA9140C0051866C /* ViewController.h */,
 				67FD759C1CA9140C0051866C /* ViewController.m */,
+				67FD75CB1CA914560051866C /* TimerControl.h */,
+				67FD75CC1CA914560051866C /* TimerControl.m */,
 				67FD759E1CA9140C0051866C /* Main.storyboard */,
 				67FD75A41CA9140C0051866C /* Assets.xcassets */,
 				67FD75A61CA9140C0051866C /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67FD75A31CA9140C0051866C /* demoDelegate2.xcdatamodeld in Sources */,
+				67FD75CD1CA914560051866C /* TimerControl.m in Sources */,
 				67FD759D1CA9140C0051866C /* ViewController.m in Sources */,
 				67FD759A1CA9140C0051866C /* AppDelegate.m in Sources */,
 				67FD75971CA9140C0051866C /* main.m in Sources */,

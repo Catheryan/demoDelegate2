@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "TimerControl.h"
+@interface ViewController : UIViewController<UpdateAlertDelegate>
 
 
 @end
